@@ -4,14 +4,14 @@ using namespace std;
 
 int main() {
     int pilihan;
-    float panjang, lebar, alas, tinggi;
+    float panjang, lebar, alas, tinggi; // dikte
 
     // pilihan - pilihannya
 
     cout << "1. Persegi" << endl;
     cout << "2. Persegi Panjang" << endl;
     cout << "3. Segitiga" << endl;
-    cout << "Pilih yang ingin dihitung luasnya: ";
+    cout << "Pilih yang ingin dihitung luasnya: "; // salah satu harus dicari luasnya
     cin >> pilihan;
 
     switch (pilihan) {  // nyari pilihan diantara 3 case dibawah ini
